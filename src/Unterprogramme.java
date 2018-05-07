@@ -12,6 +12,8 @@ public class Unterprogramme {
 		System.out.println(anzahlZeichen(z, 'e'));
 		System.out.println(anzahlZeichen(z, 'i'));
 		System.out.println(anzahlZeichen(z, 'y'));
+		
+		int e = anzahlZeichen(z, 'e');
 	}
 
 	public static void zeichenZaehlen(char[] z, char x) {
