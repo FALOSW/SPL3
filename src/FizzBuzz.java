@@ -12,13 +12,13 @@ public class FizzBuzz {
 
 	public static void FizzerBuzzer(int i, boolean showFizzBuzz) {
 		if (i % 4 == 0 && i % 7 == 0 && showFizzBuzz == true) {
-			System.out.println("FizzerBuzzer");
+			System.out.print("FizzerBuzzer");
 		} else if (i % 4 == 0) {
-			System.out.println("Fizzer ("+ i +")");
+			System.out.print("Fizzer ("+ i +")");
 		} else if (i % 7 == 0) {
-			System.out.println("Buzzer("+ i +")");
+			System.out.print("Buzzer("+ i +")");
 		} else {
-			System.out.println(i);
+			System.out.print(i);
 		}
 		System.out.println();
 
