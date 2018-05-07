@@ -3,22 +3,22 @@ public class FizzBuzz {
 
 	public static void main(String[] args) {
 		for (int i = 1; i <= 100; i++) {
-			FizzBuzz(i);
+			FizzerBuzzer(i);
 		}
-		System.out.println("ende!");
+
 	}
 
-	public static void FizzBuzz(int i) {
-		if (i % 5 == 0 && i % 3 == 0) {
-			System.out.println("FizzBuzz");
-		} else if (i % 3 == 0) {
-			System.out.println("Fizz");
-		} else if (i % 5 == 0) {
-			System.out.println("Buzz");
+	public static void FizzerBuzzer(int i) {
+		if (i % 7 == 0 && i % 4 == 0) {
+			System.out.println("FizzerBuzzer");
+		} else if (i % 4 == 0) {
+			System.out.println("Fizzer");
+		} else if (i % 7 == 0) {
+			System.out.println("Buzzer");
 		} else {
 			System.out.println(i);
 		}
 		System.out.println();
-		
+
 	}
 }
