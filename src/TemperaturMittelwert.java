@@ -35,5 +35,17 @@ public class TemperaturMittelwert {
 		}
 		System.out.println(größerAls20Grad + " Werte >= 20 Grad.");
 	}
-
+		public static void TemperaturWerteAnzahl(int[] temp, int i) {
+			int unter10Grad = 0;
+			int zwichen10und20Grad = 0;
+			int größerAls20Grad = 0;
+			
+			
+			
+			
+			
+			
+			
+			
+		}
 }
